@@ -1,0 +1,78 @@
+public enum EPWokrState
+{
+    INIT = 1,
+    SELF_CHECK = 2,
+    BACKUP = 3,
+    LINE = 4,
+    STOP = 5,
+    POWER_OFF = 6,
+    GRID_CHG = 7,
+    SOFT_START = 8
+}
+
+ 
+public enum EPLoadState
+{
+    LOAD_NORMAL,
+    LOAD_ALARM,
+    OVER_LOAD
+}
+
+ 
+public enum EPAVRState
+{
+    AVR_BYPASS,
+    AVR_STEPDWON,
+    AVR_BOOST
+}
+
+
+public enum EPBuzzerState
+{
+    BUZZ_OFF,
+    BUZZ_BLEW,
+    BUZZ_ALARM
+}
+ 
+ 
+public enum EPChargeState
+{
+    CC,
+    CV,
+    FV
+}
+
+ 
+public enum EPLoadState
+{
+    LOAD_NORMAL,
+    LOAD_ALARM,
+    OVER_LOAD
+}
+
+
+public enum EPMainSW
+{
+    Off,
+    On
+}
+
+
+public enum EPWokrState
+{
+    INIT = 1,
+    SELF_CHECK = 2,
+    BACKUP = 3,
+    LINE = 4,
+    STOP = 5,
+    POWER_OFF = 6,
+    GRID_CHG = 7,
+    SOFT_START = 8
+}
+
+
+public enum EPBuzzerSilence
+{
+    Normal,
+    Silence
+}
